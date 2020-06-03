@@ -1,0 +1,31 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-divs{
+    margin: 5%;
+    /* border-right: 1px solid white; */
+}
+.media-icon{
+    font-size: 30px;
+    background-color:black;
+    color: white;
+    padding: 1%;
+    margin-top:1px;
+    border-radius: 80%;
+    
+}
+.media-icon:hover{
+ background-color:#007BFF;  
+}
+.random-text{
+    font-size:20px;
+}
+.social-media-container-div{
+ text-align:center;
+ border-top: 1px solid rgb(59, 57, 57);
+ margin: 0 2% 0 2%;
+}
+.social-media{
+   display: inline;  
+}

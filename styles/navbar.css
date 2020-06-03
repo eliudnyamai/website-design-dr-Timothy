@@ -1,0 +1,111 @@
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #F8F9FA;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .call-to-action{
+      font-size: 20px;
+      font-weight: 700;
+  }
+  
+  /* Current/active navbar link */
+  .navbar .active {
+   padding: 3px;
+  }
+   
+
+
+.logo img{
+    height: 50px;
+    float: left;
+    transform: skew(5deg) rotate(-1deg);
+    -webkit-transform: skew(25deg) rotate(-1deg);
+    -moz-transform: skew(25deg) rotate(-1deg);
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.logo span{
+    transform: skew(5deg) rotate(-1deg);
+    -webkit-transform: skew(25deg) rotate(-1deg);
+    -moz-transform: skew(25deg) rotate(-1deg);   
+}
+/* Add a black background color to the top navigation */
+.bottomnav {
+    background-color: #0069D9; 
+    overflow: hidden;
+    margin-left:-16px;
+  
+  }
+  .topnav {
+    background-color: white; 
+    overflow: hidden;
+    margin-left:-16px;
+    height: 80px;
+   
+  }
+  .navbar .media-icon{
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    padding: 20px 0 0 0;
+    margin-left: 60px;
+    margin-right: -50px;
+    
+    
+}
+  /* Style the links inside the navigation bar */
+  .bottomnav a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .bottomnav a.links{
+   margin-left:20px;
+   width: 120px;
+   height: 80px;
+   margin-right: 10px;
+   padding-top: 30px;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomnav a:hover {
+   border-bottom: #F8F9FA solid 7px;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .bottomnav a.logo {
+    background-color: #F8F9FA;
+    color: #007BFF;
+    height: 80px;
+    min-width: 400px;
+    text-align: start;
+    transform: skew(-15deg);
+    -webkit-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+  }
+  
+  /* Hide the link that should open and close the bottomnav on small screens */
+  .bottomnav .icon {
+    display: none;
+  }
+ 
