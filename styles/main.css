@@ -1,0 +1,13 @@
+.icon{
+    border: 2px solid rgb(174, 241, 232);  
+    border-radius: 20%;
+    padding: 10%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.draw-line{
+    display: inline-block;
+    height: 3px;
+    border-top: 1px solid rgb(8, 8, 8);
+    width: 10%; 
+}

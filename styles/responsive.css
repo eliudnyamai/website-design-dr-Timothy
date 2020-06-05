@@ -1,5 +1,6 @@
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1024px) {
+   
     #philosophy{
         margin-left: 4px;
         width: 100%;
@@ -12,6 +13,9 @@
         margin-top:20%;
         margin-left: 5%;
     }
+    .image{
+    display: none;
+     }
        #appointment-form {
         background-color: white;
         width:80%;
@@ -21,6 +25,17 @@
         position: relative;
         left: 10%;
         top: 20%
+    }
+    #contact-form {
+      background-color: white;
+      width: 100%;
+      padding:5%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      position: relative;
+      margin-left:10% ;
+      margin-top:5% ;
+     
     }
     .navbar .navbar-item{
       float: none;
@@ -35,23 +50,24 @@
     .navbar .active{
       margin-left: -65px;
       }
-      .call-to-action{
-          font-size:20px;
-      }
+     
   }
 
      /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the bottomnav (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .bottomnav a:not(:first-child) {display: none;}
     .bottomnav a.icon {
-      float: right;
+       float: right;
       display: block;
       color: black;
+      
     }
     .bottomnav a.logo {
         transform: skew(0deg);
         -webkit-transform: skew(0deg);
         -moz-transform: skew(0deg);
+         min-width:100px;
+        
       }
       .logo img{
         height: 50px;
@@ -83,11 +99,12 @@
      margin: auto;
      width: 300px;
     }
+ 
     
   }
   
    /* The "responsive" class is added to the bottomnav with JavaScript when the user clicks on the icon. This class makes the bottomnav look good on small screens (display the links vertically instead of horizontally) */
-   @media screen and (max-width: 600px) {
+   @media screen and (max-width: 768px) {
        
     .bottomnav.responsive {
         position: relative;
@@ -100,6 +117,7 @@
       position: absolute;
       right: 0;
       top: 0;
+
     }
   
     .bottomnav.responsive a {
@@ -109,11 +127,21 @@
     }
     .schedule-btn {  
         display: block;
-        width: 70%;
+        width: 90%;
+      }
+      .schedule-badge{
+        font-size: 12px; 
+        color: black;      
       }
     
     #testimonials{
      padding-top: 30%;
       
      }
+     #numbers img{
+       display: none;
+     }
+     #numbers {
+      padding-bottom: 10%;
+    }
   }

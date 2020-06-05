@@ -1,10 +1,5 @@
-
-
-  
-  
- 
-  #welcome{
-    background-image: url("../img/female-doctor.jpg");
+#welcome{
+    background-image: url("../img/female-doctor-1.jpg");
     background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -23,13 +18,10 @@
     background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-
     width:100%;
-   
  }
  #introduction-text{
      margin-left: 10%;
-     
  }
  #introduction-text>p{
     margin-left: 3%;   
@@ -47,13 +39,10 @@
    margin-left: 9% !important;
 }
 .service-card{
-    /* border: 1px solid rgb(175, 173, 173);   */
     padding: 0;
     margin-right: 8%;
-    /* margin-right: -40px; */
     text-align: center;
     background-color: rgb(250, 253, 250);
-   
     margin-bottom: 2%;
 }
 .icon{
@@ -75,7 +64,6 @@ height: auto;
     background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-
     width:98%;
     margin:auto;
  }
@@ -138,8 +126,8 @@ height: auto;
     width: 100%;
     border: none;
     padding: 20px;
-    font-size: 24px;
-    text-align: center;
+    font-size: 17px;
+    /* text-align: center; */
     border-radius: 4%;
     margin-bottom: 10%;
    }
@@ -155,7 +143,7 @@ height: auto;
     border-radius: 4%;
     font-size: 24px;
     font-weight: bold;
-    margin: auto;
+
 
   }
   

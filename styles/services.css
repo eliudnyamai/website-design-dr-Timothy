@@ -1,0 +1,70 @@
+#services-welcome{
+    background-image: url("../img/service.jpg");
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 300px;
+    width:100%;
+    color: black;
+  }
+   #services-info{
+    background-color: rgb(203, 220, 228);
+   }
+   #service-heading{
+       text-align: center;
+   }
+   #services-welcome-text{
+    margin-top:10%;
+    margin-left: 10%;
+    color: white;
+   }
+  
+  #services-intro{
+    margin-top: 5%;
+    margin-left: 10%; 
+    color: white;
+  
+  
+}
+#service-about{
+    background-color: #EAEFF1;
+    padding-left: 10%;
+   }
+   .image{
+    background-size:50%;
+	height: 350px;
+     margin: auto;
+     width: 100%;
+    background-attachment: fixed;
+   }
+   .back-img{
+    background-image: url("../img/back-pain.jpg");
+   }
+   .car-img{
+    background-image: url("../img/car-accident.jpg");
+   }
+   .physical-img{
+    background-image: url("../img/physical-therapt.jpg");
+   }
+   .fall-img{
+    background-image: url("../img/fall.jpg"); 
+   }
+   .knee-img{
+    background-image: url("../img/knee.jpg");    
+   }
+   .fibromyalgia-img{
+    background-image: url("../img/fibromyalgia.jpg");   
+}
+.neck-img{
+    background-image: url("../img/neck.jpg");   
+}
+.sport-img{
+    background-image: url("../img/sport.jpg");   
+}
+.head-img{
+    background-image: url("../img/head.jpg");   
+}
+.service-text{
+    padding: 3%;
+   }
+  

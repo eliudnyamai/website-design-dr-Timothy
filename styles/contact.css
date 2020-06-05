@@ -1,0 +1,37 @@
+#welcome-contact{
+    background-image: url("../img/contact-page-female-doc.jpg");
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 300px;
+    width:100%;
+    color: black;
+  }
+  #contact-welcome-text{
+    margin-top: 10%;
+    margin-left: 10%; 
+    color: white;
+}
+#contact-details{
+  padding-left: 30%;  
+  text-align: justify;
+}
+#contact-details .media-icon{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+   
+}
+#contact-info{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#contact-form {
+  background-color: white;
+  width: 80%;
+  padding:5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  position: relative;
+ 
+}
