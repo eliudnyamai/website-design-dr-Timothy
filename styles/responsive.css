@@ -11,10 +11,7 @@
         margin-top:20%;
         margin-left: 5%;
     }
-    /* Hide the Fixed background images of services.html in small devices because they appear jumbled */
-    .image{
-        display: none;
-     }
+ 
     #appointment-form {
         background-color: white;
         width:80%;
@@ -38,7 +35,7 @@
     }
   }
 /* Responsiveness for devices with a width less than an ipad pro */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .navigation a:not(:first-child) {display: none;}
     .navigation a.icon {
        float: right;
@@ -95,10 +92,18 @@
      #numbers {
       padding-bottom: 10%;
     }
+
+    /* Hide the Fixed background images of services.html in small devices because they appear jumbled */
+     .image{
+        display: none;
+     }
+     .service-text{
+       text-align: center;
+     }
   }
   
    /* The "responsive" class is added to the navigation with JavaScript when the user clicks on the icon. This class makes the navigation look good on small screens (display the links vertically instead of horizontally) */
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 600px) {
        
     .navigation.responsive {
         position: relative;
