@@ -1,5 +1,5 @@
 
-function myFunction() {
+function DisplayMenu() {
     var x = document.getElementById("mynavigation");
     if (x.className === "navigation") {
       x.className += " responsive";
