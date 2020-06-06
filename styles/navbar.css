@@ -49,6 +49,12 @@
    margin-right: 10px;
    padding-top: 30px;
   }
+
+   .img-icon{
+    padding-top: 10px;
+     width: 30px;
+     height: auto;
+   }
   
   /* Change the color of links on hover */
   .navigation a:hover  {
