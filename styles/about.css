@@ -6,51 +6,37 @@
 	height: 300px;
     width:100%;
   }
-  #about-welcome-text{
-      margin-top: 10%;
-      margin-left: 10%;
-      color: white;
-      
+
+#about-welcome-text{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;   
   }
-  #about-us-img{
- 
-  }
-  #about-us-text{
-margin-top: 14px; 
-padding-left: 10%;  
+
+#about-us-text{
+    margin-top: 14px; 
+    padding-left: 10%;  
 }
+
 #about-us{
     background-color: #F8F9FA;
-    }
-    .carousel-indicators li{
-      background-color: black;  
-    }
-    .carousel-control-next-icon{
-        position: relative;
-        background-color: black; 
-        right: 130px;   
-    }
-    .carousel-control-prev-icon{
-        background-color: black;
-        position: relative;
-        left: -70px; 
-    }
-    .create-space{
-     width: 200px;   
-    }
+}
+.carousel-indicators li{
+    background-color: black;  
+}
+.carousel-control-next-icon{
+    position: relative;
+    background-color: black; 
+    right: 130px;   
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    position: relative;
+    left: -70px; 
+}
 
-    #numbers {
-        background-color:#CBDCE4; 
-    }
-    #numbers-container{
-        text-align: center;
-    }
-   .number-card{
-    padding:5%;
-   
-   }
-   .carousel-item{
-       padding: 20px;
-       font-size: 18px;
-       font-weight: 450;
-   }
+.carousel-item{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 450;
+}

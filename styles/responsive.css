@@ -1,22 +1,21 @@
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 1024px) {
-   
+/* Add responsiveness - f */
+@media screen and (max-width: 1024px) {
     #philosophy{
         margin-left: 4px;
         width: 100%;
-      }
-      #testimonials{
-       padding-top: 25%;
-        
-       }
-       #welcome-text{
+    }
+    #testimonials{
+       padding-top: 25%; 
+    }
+    #welcome-text{
         margin-top:20%;
         margin-left: 5%;
     }
+    /* Hide the Fixed background images of services.html in small devices because they appear jumbled */
     .image{
-    display: none;
+        display: none;
      }
-       #appointment-form {
+    #appointment-form {
         background-color: white;
         width:80%;
         padding:5%;
@@ -26,6 +25,7 @@
         left: 10%;
         top: 20%
     }
+
     #contact-form {
       background-color: white;
       width: 100%;
@@ -34,42 +34,26 @@
       text-align: center;
       position: relative;
       margin-left:10% ;
-      margin-top:5% ;
-     
+      margin-top:5% ; 
     }
-    .navbar .navbar-item{
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin-right: 90px;
-      padding: 5px;
-      margin-left:-10px ;
-    
-    }
-    .navbar .active{
-      margin-left: -65px;
-      }
-     
   }
-
-     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the bottomnav (.icon) */
+/* Responsiveness for devices with a width less than an ipad pro */
 @media screen and (max-width: 768px) {
-    .bottomnav a:not(:first-child) {display: none;}
-    .bottomnav a.icon {
+    .navigation a:not(:first-child) {display: none;}
+    .navigation a.icon {
        float: right;
       display: block;
-      color: black;
-      
+      color: black; 
     }
-    .bottomnav a.logo {
+    /* Removes the slantness from the logo */
+    .navigation a.logo {
         transform: skew(0deg);
         -webkit-transform: skew(0deg);
         -moz-transform: skew(0deg);
-         min-width:100px;
-        
-      }
-      .logo img{
+         min-width:100px;    
+    }
+ /* Removes the slantness from the logo img */
+    .logo img{
         height: 50px;
         float: left;
         transform: skew(0deg) rotate(0deg);
@@ -78,70 +62,58 @@
         padding-right: 5px;
         padding-left: 10px;
     }
+     /* Removes the slantness from the text after the logo */
     .logo span{
         transform: skew(0deg) rotate(0deg);
         -webkit-transform: skew(0deg) rotate(0deg);
         -moz-transform: skew(0deg) rotate(0deg);   
     }
-    .bottomnav {
+    /* Changes the colour of the navigation bar */
+    .navigation {
         background-color: #F8F9FA;
         overflow: hidden;
-
       }
-      
-      #welcome{
-        /* background-image: url("../img/female-doctor.jpg"); */
-        background-repeat:no-repeat;
-        background-size:cover;
-        width:100%;
-      }  
-      #philosophy-img{
-     margin: auto;
-     width: 300px;
-    }
- 
-    
-  }
-  
-   /* The "responsive" class is added to the bottomnav with JavaScript when the user clicks on the icon. This class makes the bottomnav look good on small screens (display the links vertically instead of horizontally) */
-   @media screen and (max-width: 768px) {
-       
-    .bottomnav.responsive {
-        position: relative;
-        background-color: #0069D9; 
-        overflow: hidden;
-        display: block;
-    }
-   
-    .bottomnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
 
-    }
-  
-    .bottomnav.responsive a {
-      float: none;
-      display: flex;
-      text-align: left;
-    }
     .schedule-btn {  
         display: block;
         width: 90%;
       }
+
       .schedule-badge{
         font-size: 12px; 
         color: black;      
       }
     
     #testimonials{
-     padding-top: 30%;
-      
+     padding-top: 30%; 
      }
+
      #numbers img{
        display: none;
      }
+
      #numbers {
       padding-bottom: 10%;
     }
+  }
+  
+   /* The "responsive" class is added to the navigation with JavaScript when the user clicks on the icon. This class makes the navigation look good on small screens (display the links vertically instead of horizontally) */
+   @media screen and (max-width: 768px) {
+       
+    .navigation.responsive {
+        position: relative;
+        background-color: #0069D9; 
+        overflow: hidden;
+        display: block;
+    }
+    .navigation.responsive a {
+      float: none;
+      display: flex;
+      text-align: left;
+    }
+    .navigation.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }  
   }

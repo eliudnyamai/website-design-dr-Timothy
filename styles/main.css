@@ -1,3 +1,4 @@
+/* Contains CSS which affect more than one page and does not belong to navbar.css or responsive.css  */
 .icon{
     border: 2px solid rgb(174, 241, 232);  
     border-radius: 20%;
@@ -10,4 +11,22 @@
     height: 3px;
     border-top: 1px solid rgb(8, 8, 8);
     width: 10%; 
+}
+
+.special-text{
+    color: #007BFF;
+}
+
+.small-text{
+    font-size: small;
+}
+
+.numbers{
+    background-color:#CBDCE4; 
+}
+.numbers-container{
+    text-align: center;
+}
+.number-card{
+    padding:5%;
 }

@@ -1,3 +1,5 @@
+/* This is the Css for Index.html which is the landing page */
+
 #welcome{
     background-image: url("../img/female-doctor-1.jpg");
     background-position:center;
@@ -6,13 +8,12 @@
 	height:400px;
     width:100%;
   }
+
   #welcome-text{
       margin-top:20%;
       margin-left: 50%;
   }
-  #special-text{
-      color: #007BFF;
-  }
+
  #introduction{
     background-color: rgb(203, 220, 228);
     background-position:center;
@@ -20,24 +21,30 @@
 	background-size:cover;
     width:100%;
  }
+
  #introduction-text{
      margin-left: 10%;
  }
+
  #introduction-text>p{
     margin-left: 3%;   
 }
+
 #services-heading{
     text-align:center;
 }
+
 .draw-line{
     display: inline-block;
     height: 3px;
     border-top: 1px solid rgb(8, 8, 8);
     width: 10%; 
 }
+
 #service-container{
    margin-left: 9% !important;
 }
+
 .service-card{
     padding: 0;
     margin-right: 8%;
@@ -45,6 +52,7 @@
     background-color: rgb(250, 253, 250);
     margin-bottom: 2%;
 }
+
 .icon{
       border: 2px solid rgb(174, 241, 232);  
       border-radius: 20%;
@@ -52,13 +60,16 @@
       margin-top:2%;
       margin-bottom:2%;
 }
+
 #philosophy{
  background-color: rgb(203, 220, 228);
 }
+
 #philosophy-img{
 width:30px;
 height: auto;
 }
+
 #appointment{
     background-image: url("../img/appointment1.jpg");
     background-position:center;
@@ -67,6 +78,7 @@ height: auto;
     width:98%;
     margin:auto;
  }
+
  #appointment-form {
      background-color: white;
      width: 50%;
@@ -77,13 +89,16 @@ height: auto;
      left: 20%;
      top: 30%
  }
+
  #appointment-form input{
     background: #dcdee0;
  }
+
  #appointment-form textarea{
     background: #dcdee0;
     border: 0;
  }
+
  .block-btn {  
     display: block;
     width: 100%;
@@ -94,43 +109,45 @@ height: auto;
     text-align: center;
     border-radius: 4%;
   }
-  .small-text{
-   font-size: small;
-  }
+
   #testimonials{
     background-color: rgb(203, 220, 228);
     text-align: center;
     padding-top: 15%;
    }
+
    #testimonials img{
     width: 100px;
     height: 100px;
     border-radius: 100%;
    }
+
    .member-testimonial{
      padding: 10px;  
    }
+
    .checked{
     color: #0069D9; 
    }
+
    #schedules{
     background-color: rgb(234, 239, 241);
     text-align: center;
     padding-left: 3%;
     padding-right: 3%; 
     padding-bottom: 3%; 
-   
    }
+
    .Schedule-badge{
     display: block;
     width: 100%;
     border: none;
     padding: 20px;
     font-size: 17px;
-    /* text-align: center; */
     border-radius: 4%;
     margin-bottom: 10%;
    }
+   
    .schedule-btn {  
     display: block;
     width: 30%;
@@ -143,7 +160,5 @@ height: auto;
     border-radius: 4%;
     font-size: 24px;
     font-weight: bold;
-
-
   }
   

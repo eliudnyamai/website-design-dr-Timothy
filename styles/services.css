@@ -6,65 +6,78 @@
 	height: 300px;
     width:100%;
     color: black;
-  }
-   #services-info{
+}
+
+#services-info{
     background-color: rgb(203, 220, 228);
-   }
-   #service-heading{
-       text-align: center;
-   }
-   #services-welcome-text{
+}
+
+#service-heading{
+    text-align: center;
+}
+
+#services-welcome-text{
     margin-top:10%;
     margin-left: 10%;
     color: white;
-   }
-  
-  #services-intro{
+}
+
+#services-intro{
     margin-top: 5%;
     margin-left: 10%; 
     color: white;
-  
-  
 }
+
 #service-about{
     background-color: #EAEFF1;
     padding-left: 10%;
-   }
-   .image{
+}
+/* CSS Which applies to all fixed background images */
+.image{
     background-size:50%;
 	height: 350px;
-     margin: auto;
-     width: 100%;
+    margin: auto;
+    width: 100%;
     background-attachment: fixed;
-   }
-   .back-img{
+}
+/* CSS for the constituent images */
+.back-img{
     background-image: url("../img/back-pain.jpg");
-   }
-   .car-img{
+}
+
+.car-img{
     background-image: url("../img/car-accident.jpg");
-   }
-   .physical-img{
+}
+
+.physical-img{
     background-image: url("../img/physical-therapt.jpg");
-   }
-   .fall-img{
+}
+
+.fall-img{
     background-image: url("../img/fall.jpg"); 
-   }
-   .knee-img{
+}
+
+.knee-img{
     background-image: url("../img/knee.jpg");    
-   }
-   .fibromyalgia-img{
+}
+
+.fibromyalgia-img{
     background-image: url("../img/fibromyalgia.jpg");   
 }
+
 .neck-img{
     background-image: url("../img/neck.jpg");   
 }
+
 .sport-img{
     background-image: url("../img/sport.jpg");   
 }
+
 .head-img{
     background-image: url("../img/head.jpg");   
 }
+
 .service-text{
     padding: 3%;
-   }
+}
   

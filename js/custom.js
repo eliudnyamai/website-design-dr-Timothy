@@ -1,10 +1,10 @@
 
 function myFunction() {
-    var x = document.getElementById("mybottomnav");
-    if (x.className === "bottomnav") {
+    var x = document.getElementById("mynavigation");
+    if (x.className === "navigation") {
       x.className += " responsive";
     } else {
-      x.className = "bottomnav";
+      x.className = "navigation";
     }
   }
   $(document).scroll(function() {

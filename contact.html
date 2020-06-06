@@ -20,7 +20,6 @@
   <link href="styles/navbar.css" rel="stylesheet">
   <link href="styles/responsive.css" rel="stylesheet">
   <link href="styles/footer.css" rel="stylesheet">
-  <link href="styles/about.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
   <link href="styles/contact.css" rel="stylesheet">
 </head>
@@ -29,21 +28,18 @@
   <!-- Header -->
 
      <header>
-    
-    <!-- navigation two -->
-
-          <div class="bottomnav" id="mybottomnav">
+          <div class="navigation" id="mynavigation">
               <a class="logo" href="index.html"> 
                   <img src="img/logo.png" alt="">
                   <span>
-                    Dr Timothy Richard <br>
+                      Dr Timothy Richard <br>
                       Board Certified practitioner
                     </span>
                </a>
                 <a class="links" href="index.html">Home</a>
                 <a class="links" href="about.html">About</a>
                 <a class="links" href="services.html">Services</a>
-                <a class="links" href="contact.html">Contact Us</a>
+                <a class="links active" href="contact.html">Contact Us</a>
                 <a class="links" href="http://drtimothyrichardson.com/chiropractors/faqs">FAQs</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
@@ -51,7 +47,7 @@
           </div>
   </header>
 
-  <!-- Welcome section contact -->
+  <!-- Start Welcome section contact -->
 
   <section id="welcome-contact">
       <div class="row">
@@ -61,11 +57,13 @@
           </div>
       </div>
   </section>
+    <!-- End Welcome section contact -->
 
-<!-- contact info -->
-
+<!-- start of contact info -->
 <section id="contact-info">
+
       <div class="row">
+
         <div class="col-md-6">
              <div id="contact-details">
               <h2>Contact Us</h2>
@@ -79,10 +77,13 @@
               </span>
             </div>
         </div>
+
         <div class="col-md-6">
+
           <form id="contact-form" action="">
             <h3>Get in Touch </h3>
             <div class="row">
+
                  <div class="col-md-6">
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Name *" value="" />
@@ -94,6 +95,7 @@
                       <input type="text" class="form-control" placeholder="Subject*" value="" />
                     </div>
                  </div>
+
                  <div class="col-md-6">
                     <div class="form-group">
                       <textarea placeholder="Type your message" name="" id="" cols="25" rows="4"></textarea>
@@ -101,95 +103,108 @@
                     <button type="button" class="block-btn btn btn-primary">Send Timothy a message</button>
                 </div>
               </div>
+
           </form>
         </div>
       </div>
 </section>
-  <!-- our numbers -->
-  <section id="numbers">
-    <div id="numbers-container" class="row">
-      <div class="number-card  col-md-3">
-        <i class=" fa fa-building-o" aria-hidden="true" style="font-size:20px"></i>
-       <h2>09</h2>
-        <p>Total Departments</p>
-      </div>
-      <div class="number-card  col-md-3">
-        <i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i>
-       <h2>1000+</h2>
-        <p>Healed Patients</p>
-      </div>
-      <div class="number-card  col-md-3">
-        <i class=" fa fa-clock-o" aria-hidden="true" style="font-size:20px"></i>
-       <h2>10,000+</h2>
-        <p>Hours of Practice</p>
-      </div>
-      <div class="number-card  col-md-3">
-        <i class=" fa fa-user-md" aria-hidden="true" style="font-size:20px"></i>
-       <h2>03</h2>
-        <p>Assistant Chiropractors</p>
-      </div>
-    </div>
-  </section>
+  <!-- Start of our numbers -->
+  <section class="numbers">
+        <div class="row numbers-container">
 
-  <!-- Footer -->
+            <div class="number-card  col-md-3">
+                <i class=" fa fa-building-o" aria-hidden="true" style="font-size:20px"></i>
+                <h2>09</h2>
+                <p>Total Departments</p>
+            </div>
 
- <footer class="footer">
-  <div class="row">
-        <div class="col-md-4">
-            <div class="footer-divs">
-                  <h3>About Dr Timothy</h3>
-                  Dr. Richardson is a clinically experienced doctor who has treated 
-                  thousands of patients by utilizing the full spectrum of the chiropractic 
-                  healing arts. Dr. Timothy Richardson is a native Virginian. He earned his
-                   Doctor of Chiropractic degree from Life University College of Chiropractic
-                    in Marietta, Georgia in 2003. 
+            <div class="number-card  col-md-3">
+                <i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i>
+                <h2>1000+</h2>
+                <p>Healed Patients</p>
+            </div>
+
+            <div class="number-card  col-md-3">
+              <i class=" fa fa-clock-o" aria-hidden="true" style="font-size:20px"></i>
+              <h2>10,000+</h2>
+              <p>Hours of Practice</p>
+            </div>
+
+            <div class="number-card  col-md-3">
+              <i class=" fa fa-user-md" aria-hidden="true" style="font-size:20px"></i>
+              <h2>03</h2>
+              <p>Assistant Chiropractors</p>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="footer-divs">
-                <h3>Navigation</h3>
-                 <div class="col-md-6">
-                    <p><a href="about.html"> >> About us</a></p>
-                    <p><a href="services.html"> >> Services</a></p>
-                    <p><a href="contact.html"> >> Contact Us</a></p>
-                    <p><a href="http://drtimothyrichardson.com/chiropractors/faqs">>> FAQs</a></p>
-                </div>
-            </div>
-         </div>
-         <div class="col-md-4">
+  </section>
+ <!-- End of our numbers -->
+
+   <!-- Start of Footer -->
+
+   <footer class="footer">
+    <div class="row">
+
+          <div class="col-md-4">
               <div class="footer-divs">
-              <h3>Contact info</h3>
-              <div>
-                  <span class="fa fa-phone media-icon "></span><span class="random-text">404-966-0950</span> <br>
-                  <span class="fa fa-map-marker media-icon "></span>
-                  <span class="">
-                    Dr. Timothy Richardson, D.C. <br>
-                    &nbsp; 6355 Peachtree Dunwoody Rd. Ste #611 <br>
-                    &nbsp;Sandy Springs, Ga. 30328 <br>
-                    &nbsp;Phone: 404.966.0950
-                  </span>
-                </div>
-                <br>
+                    <h3>About Dr Timothy</h3>
+                    Dr. Richardson is a clinically experienced doctor who has treated 
+                    thousands of patients by utilizing the full spectrum of the chiropractic 
+                    healing arts. Dr. Timothy Richardson is a native Virginian. He earned his
+                    Doctor of Chiropractic degree from Life University College of Chiropractic
+                    in Marietta, Georgia in 2003. 
               </div>
           </div>
-   </div>
-  <div class="social-media-container-div">
-      <div class="social-media row">
-          <a href="https://www.facebook.com/tim.richardson.56">
-              <span class="fa fa-facebook-square media-icon"></span>
-          </a>
-          <a href="https://twitter.com/drtimrichardson">
-              <span class="fa fa-twitter media-icon"></span>
-          </a>
-          <span class="fa fa-youtube-play media-icon"></span>
-      </div>
-  </div>
+
+          <div class="col-md-4">
+              <div class="footer-divs">
+                  <h3>Navigation</h3>
+                   <div class="col-md-6">
+                      <p><a href="about.html"> >> About us</a></p>
+                      <p><a href="services.html"> >> Services</a></p>
+                      <p><a href="contact.html"> >> Contact Us</a></p>
+                      <p><a href="http://drtimothyrichardson.com/chiropractors/faqs">>> FAQs</a></p>
+                  </div>
+              </div>
+           </div>
+
+           <div class="col-md-4">
+                <div class="footer-divs">
+                <h3>Contact info</h3>
+                <div>
+                    <span class="fa fa-phone media-icon "></span><span class="random-text">404-966-0950</span> <br>
+                    <span class="fa fa-map-marker media-icon "></span>
+                    <span class="">
+                      Dr. Timothy Richardson, D.C. <br>
+                      &nbsp; 6355 Peachtree Dunwoody Rd. Ste #611 <br>
+                      &nbsp;Sandy Springs, Ga. 30328 <br>
+                      &nbsp;Phone: 404.966.0950
+                    </span>
+                  </div>
+                  <br>
+                </div>
+            </div>
+     </div>
+
+    <div class="social-media-container-div">
+        <div class="social-media row">
+            <a href="https://www.facebook.com/tim.richardson.56">
+                <span class="fa fa-facebook-square media-icon"></span>
+            </a>
+            <a href="https://twitter.com/drtimrichardson">
+                <span class="fa fa-twitter media-icon"></span>
+            </a>
+            <span class="fa fa-youtube-play media-icon"></span>
+        </div>
+    </div>
+    
 </footer>
+<!-- End of footer -->
 
   <!-- Bootstrap core JavaScript -->
 
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom javascript -->
   <script src="js/custom.js"></script>
 </body>
 </html>
