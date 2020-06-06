@@ -37,6 +37,7 @@
 /* Responsiveness for devices with a width less than an ipad pro */
 @media screen and (max-width: 600px) {
     .navigation a:not(:first-child) {display: none;}
+    .navigation .social{display: none;}
     .navigation a.icon {
        float: right;
       display: block;
@@ -109,12 +110,25 @@
         position: relative;
         background-color: #0069D9; 
         overflow: hidden;
-        display: block;
+        display: block; 
     }
     .navigation.responsive a {
       float: none;
       display: flex;
       text-align: left;
+      display: block;
+    }
+    .navigation.responsive .social-media-link {
+      float: none;
+      display: inline;
+      text-align: left;
+      margin-left:10% ;
+     
+    }
+    .navigation.responsive .social {
+      float: none;
+      display: inline;
+      text-align: left; 
     }
     .navigation.responsive a.icon {
       position: absolute;
