@@ -72,10 +72,9 @@ height: auto;
 
 #appointment{
     background-image: url("../img/appointment1.jpg");
-    background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-    width:98%;
+    width:100%;
     margin:auto;
  }
 
