@@ -1,6 +1,32 @@
 /* Add responsiveness - f */
-@media screen and (max-width: 1024px) {
-    #philosophy{
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header .logo{
+    width: 100%;
+    transform: skew(0deg);
+    margin: 0px;  
+}
+.logo-img{
+    transform: skew(0deg);
+    width: 200px;
+    height: 85px;
+}
+.header .logo{
+  width: 100%;
+  transform: skew(0deg);
+  margin: 0px;  
+  float: none;
+}
+.logo-img{
+  transform: skew(0deg);
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+.logo-text{
+  transform: skew(0deg);
+}
+  
+  #philosophy{
         margin-left: 4px;
         width: 100%;
     }
@@ -35,44 +61,26 @@
     }
   }
 /* Responsiveness for devices with a width less than an ipad pro */
-@media screen and (max-width: 600px) {
-    .navigation a:not(:first-child) {display: none;}
-    .navigation .social{display: none;}
-    .navigation a.icon {
-       float: right;
-      display: block;
-      color: black; 
-    }
-    /* Removes the slantness from the logo */
-    .navigation a.logo {
-        transform: skew(0deg);
-        -webkit-transform: skew(0deg);
-        -moz-transform: skew(0deg);
-         min-width:100px;    
-    }
- /* Removes the slantness from the logo img */
-    .logo img{
-        height: 50px;
-        float: left;
-        transform: skew(0deg) rotate(0deg);
-        -webkit-transform: skew(0deg) rotate(0deg);
-        -moz-transform: skew(0deg) rotate(0deg);
-        padding-right: 5px;
-        padding-left: 10px;
-    }
-     /* Removes the slantness from the text after the logo */
-    .logo span{
-        transform: skew(0deg) rotate(0deg);
-        -webkit-transform: skew(0deg) rotate(0deg);
-        -moz-transform: skew(0deg) rotate(0deg);   
-    }
-    /* Changes the colour of the navigation bar */
-    .navigation {
-        background-color: #F8F9FA;
-        overflow: hidden;
-      }
+@media (min-width: 300px) and (max-width: 767px) {
 
-    .schedule-btn {  
+.header .logo{
+  width: 100%;
+  transform: skew(0deg);
+  margin-left: 0px;  
+  float: none;
+}
+.logo-img{
+  transform: skew(0deg);
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+
+}
+.logo-text{
+  transform: skew(0deg);
+}
+
+.schedule-btn {  
         display: block;
         width: 90%;
       }
@@ -103,36 +111,3 @@
      }
   }
   
-   /* The "responsive" class is added to the navigation with JavaScript when the user clicks on the icon. This class makes the navigation look good on small screens (display the links vertically instead of horizontally) */
-   @media screen and (max-width: 600px) {
-       
-    .navigation.responsive {
-        position: relative;
-        background-color: #0069D9; 
-        overflow: hidden;
-        display: block; 
-    }
-    .navigation.responsive a {
-      float: none;
-      display: flex;
-      text-align: left;
-      display: block;
-    }
-    .navigation.responsive .social-media-link {
-      float: none;
-      display: inline;
-      text-align: left;
-      margin-left:10% ;
-     
-    }
-    .navigation.responsive .social {
-      float: none;
-      display: inline;
-      text-align: left; 
-    }
-    .navigation.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }  
-  }
