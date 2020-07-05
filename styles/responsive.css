@@ -1,5 +1,5 @@
 /* Add responsiveness - f */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header .logo{
     width: 100%;
     transform: skew(0deg);
