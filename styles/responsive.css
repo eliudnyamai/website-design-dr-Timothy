@@ -72,12 +72,13 @@
 .logo-img{
   transform: skew(0deg);
   width: 80px;
-  height: 80px;
+  height: 70px;
   margin: 5px;
 
 }
 .logo-text{
   transform: skew(0deg);
+  padding-top: 20px;
 }
 
 .schedule-btn {  
