@@ -1,25 +1,18 @@
 /* This is the Css for Index.html which is the landing page */
 
 #welcome{
-    background-image: url("../img/female-doctor-1.jpg");
-    
+    background-image: url("../img/service.jpg");
+    background-position: center;
 	background-repeat:no-repeat;
-	background-size:cover;
-	height:700px;
-    width:100%;
-  }
+    background-size:cover;
+    height: 400px;
 
-  #welcome-text{
-      margin-top:20%;
-      margin-left: 50%;
   }
-
  #introduction{
     background-color: rgb(203, 220, 228);
     background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-    width:100%;
  }
 
  #introduction-text{
